@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.tela {
+    display: flex;
+    align-items: start;
+    width: 100%;
+    flex-direction: row;
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 260px;
+    border-left: solid 1px;
+    border-color: #808080;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.documento {
+    width: 1001px;
+    background: #F8FAFC;
+    height: 564px;
+}
+
+.menu {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 15px;
+    background: #FFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.07)
+}
+
+.menu-area {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 24px;
+}
+
+.menu-opt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.opt-titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #111829;
+    letter-spacing: 0.18px;
+}
+
+.menu-icones {
+    height: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.geral {
+    display: flex;
+    flex-direction: row;
+}
+
+.arquivo {
+    width: 946px;
+    margin-left: 10px;
+    margin-right: 11px;
+}
+
+.barra-lateral {
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 34px;
+    height: 514px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.barra-div {
+    width: 16px;
+    background: #E4E9F0;
+    height: 1px;
+    margin-top: 16px;
+}
+
+.barra-up {
+    width: 16px;
+    margin-top: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.barra-down {
+    width: 11px;
+    height: 11px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+}
+
+.linha1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 5px;
+    align-items: center;
+    gap: 15px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    height: 18px;
+    align-items: center;
+}
+
+.mapa-titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    color: #495769;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.linha1-div {
+    width: 1px;
+    height: 32px;
+    background: #CCD5E0;
+}
+
+.botao-banco {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.banco-titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    color: #00103B;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.linha2-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.linhas-botoes {
+    height: 30px;
+    width: 34px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CCD5E0;
+    border-radius: 8px;
+}
+
+.campo-pesquisa {
+    height: 14px;
+    width: 396px;
+    gap: 204px;
+    padding: 8px 13px 8px 14px;
+    background: #fff;
+    border: 1px solid #CCD5E0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.pesquisa-label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.linha2-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao-exportar-label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.botao-exportar {
+    border: 1px solid #CCD5E0;
+    border-radius: 8px;
+    background: #fff;
+    height: 14px;
+    padding: 8px 10px 8px 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 56px;
+    margin-top: 7px;
+    align-items: center;
+}
+
+.linha3-filtro {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.filtro-label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: #444444;
+    white-space: nowrap;
+}
+
+.linha3-limpar {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 12px;
+    color: #00103B;
+    white-space: nowrap;
+}
+
+.linha4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-left: 10px;
+    align-items: flex-start;
+}
+
+.linha4-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+}
+
+.page-label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 300;
+    font-size: 13px;
+    color: #495769;
+    white-space: nowrap;
+}
+
+.page-select-label {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 13px;
+    color: #495769;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.page-select-mark {
+    background: #00103B;
+    width: 92px;
+    height: 4px;
+    margin-top: 1px;
+}
+
+.page-select {
+    display: flex;
+    flex-direction: column;
+    margin-left: 26px;
+}
+
+.arquivo-div {
+    width: 100%;
+    height: 1px;
+    background: #CCD5E0;
+}
+
+.conciliacao {
+    width: 926px;
+    height: 357px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding-top: 20px;
+    gap: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colunas-titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 13px;
+    color: #495769;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 0.58px;
+}
+
+.botao-finalizada {
+    background: #00103B;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 12px;
+    border-radius: 8px;
+    letter-spacing: 1.08px;
+    margin-top: 60px;
+}
+
+.coluna-botao {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container {
+    padding: 14px 12px;
+    border-radius: 6px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.07);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: flex-start;
+}
+
+.campos-titulo {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 12px;
+    color: #495769;
+}
+
+.campos-entrada {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 300;
+    font-size: 12px;
+    color: #495769;
+    width: 280px;
+    height: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.config-dados {
+    background-color: #EDEDED;
+    border-radius: 6px;
+    border: 1px solid #ABABAB;
+    height: 30px;
+    font-weight: 500;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+}
+
+#botao-imprimir {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Padding */
+    margin: 10px 0; /* Margem */
+    border: none; /* Sem borda */
+    cursor: pointer; /* Cursor como ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: 600;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.ocultar-na-impressao {
+    display: none !important;
+}

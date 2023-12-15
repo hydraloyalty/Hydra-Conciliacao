@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Conciliação Bancária</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="documento">
+            <div class="menu">
+                <div class="menu-area">
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Cadastros</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Suprimentos</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Vendas</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Finanças</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Serviços</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                    <div class="menu-opt">
+                        <div class="opt-titulo">Contabilidade</div>
+                        <img src="Icones/arrow-menu.svg" alt="Seta">
+                    </div>
+                </div>
+                <div class="menu-icones">
+                    <img src="Icones/notification.svg" alt="Notificações">
+                    <img src="Icones/user.svg" alt="Usuário">
+                    <img src="Icones/settings.svg" alt="Configurações">
+                    <img src="Icones/help.svg" alt="Ajuda">
+                    <img src="Icones/exit.svg" alt="Sair">
+                </div>
+            </div>
+            <div class="geral">
+                <div class="arquivo">
+                    <div class="linha1">
+                        <div class="mapa">
+                            <img src="Icones/3dot.svg" alt="...">
+                            <img src="Icones/arrow-right.svg" alt="Seta">
+                            <div class="mapa-titulo">Caixas e Bancos</div>
+                        </div>
+                        <div class="linha1-div"></div>
+                        <div class="botao-banco">
+                            <div class="banco-titulo">Banco Master</div>
+                            <img src="Icones/arrow-down.svg" alt="Seta">
+                        </div>
+                    </div>
+                    <div class="linha2">
+                        <div class="linha2-right">
+                            <div class="linhas-botoes">
+                                <img src="Icones/filter.svg" alt="Filtro">
+                            </div>
+                            <div class="campo-pesquisa">
+                                <div class="pesquisa-label">Pesquisa por nome ou histórico</div>
+                                <img src="Icones/search.svg" alt="Pesquisa">
+                            </div>
+                            <div class="linhas-botoes">
+                                <img src="Icones/calendar.svg" alt="Calendário">
+                            </div>
+                        </div>
+                        <div class="linha2-left">
+                            <div class="botao-exportar">
+                                <img src="Icones/export.svg" alt="Exportar">
+                                <div class="botao-exportar-label">Exportar</div>
+                            </div>
+                            <div class="linhas-botoes">
+                                <img src="Icones/print.svg"  alt="Imprimir">
+                            </div>
+                            <div class="linhas-botoes">
+                                <img src="Icones/trash.svg" alt="Excluir">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="linha3">
+                        <div class="linha3-filtro">
+                            <div class="filtro-label">Situação: Pendentes</div>
+                            <img src="Icones/close.svg" alt="Close">
+                        </div>
+                        <div class="linha3-filtro">
+                            <div class="filtro-label">Situação da conciliação: Todas</div>
+                            <img src="Icones/close.svg" alt="Close">
+                        </div>
+                        <div class="linha3-limpar">Limpar</div>
+                    </div>
+                    <div class="linha4">
+                        <div class="linha4-pages">
+                            <div class="page-label">Movimentações</div>
+                            <div class="page-label">Entradas</div>
+                            <div class="page-label">Saídas</div>
+                            
+                        </div>
+                        <div class="page-select">
+                            <div class="page-select-label">Conciliação</div>
+                            <div class="page-select-mark"></div>
+                        </div>
+                    </div>
+                    <div class="arquivo-div"></div>
+                    <div class="conciliacao">
+                        <div class="colunas">
+                            <div class="colunas-titulo">Conta Bancária</div>
+                            <div class="container">
+                                <div class="campos">
+                                    <div class="campos-titulo">NOME</div>
+                                    <div class="campos-entrada" id="campo-nome">Razão Social ou Nome</div>
+                                </div>
+                                <div class="campos">
+                                    <div class="campos-titulo">CPF / CNPJ</div>
+                                    <div class="campos-entrada" id="campo-id">00.000.000/0001-00</div>
+                                </div>
+                                <div class="campos">
+                                    <div class="campos-titulo">AGÊNCIA</div>
+                                    <div class="campos-entrada" id="campo-agencia">0000</div>
+                                </div>
+                                <div class="campos">
+                                    <div class="campos-titulo">CONTA</div>
+                                    <div class="campos-entrada" id="campo-conta">0000000-0</div>
+                                </div>
+                                <div class="campos">
+                                    <div class="campos-titulo">INSTITUIÇÃO</div>
+                                    <div class="campos-entrada" id="campo-banco">Nome ou Razão Social do Banco</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="coluna-botao">
+                            <div class="botao-finalizada">CONCILIAÇÃO<br/>FINALIZADA</div>
+                        </div>
+                        <div class="colunas">
+                            <div class="colunas-titulo">Dados da Movimentação</div>
+                            <div class="container">
+                                <div class="campos">
+                                    <div class="campos-titulo">CHAVE</div>
+                                    <div class="campos-entrada" id="campo-chave">####-####-####-####-####-####</div>
+                                </div>
+                                <div class="campos">
+                                    <div class="campos-titulo">DATA</div>
+                                    <div class="campos-entrada" id="campo-data">dd/mm/aaaa</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="barra-lateral">
+                    <div class="barra-up">
+                        <img src="Icones/upload.svg" alt="Upload">
+                        <div class="barra-div"></div>
+                    </div>
+                    <div class="barra-down">
+                        <img src="Icones/arrow-left.svg" alt="Expandir">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="config">
+            <input id="inputNome" type="text" placeholder="Razão Social ou Nome" class="config-dados">
+            <input id="inputID" type="text" placeholder="CPF ou CNPJ" class="config-dados">
+            <input id="inputAgencia" type="text" placeholder="Agência" class="config-dados">
+            <input id="inputConta" type="text" placeholder="Conta" class="config-dados">
+            <input id="inputBanco" type="text" placeholder="Instituição" class="config-dados">
+            <input id="inputChave" type="text" placeholder="Chave" class="config-dados">
+            <input id="inputData" type="text" placeholder="Data" class="config-dados">
+            <button id="botao-imprimir">EXPORTAR</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+    
+</html>
